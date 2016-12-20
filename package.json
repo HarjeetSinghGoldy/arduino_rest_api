@@ -4,7 +4,7 @@
     "description": "Login Flow Application Using RESTful API",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/HarjeetSinghGoldy/sylvester_tech_REST.git"
     },
     "dependencies": {
         "bcryptjs": "^2.1.0",
