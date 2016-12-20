@@ -20,7 +20,7 @@
               // console.log("vm.user",user);
                 vm.user = user;
                 vm.user.dob = new Date(user.dob)
-                console.log("vm.user",  vm.user );
+                // console.log("vm.user",  vm.user );
 
             });
         }

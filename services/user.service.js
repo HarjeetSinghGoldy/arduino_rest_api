@@ -23,7 +23,7 @@ service.delete = _delete;
 
 module.exports = service; //module.exports is the object that's actually returned as the result of a require call.
 
-console.log(module.exports);
+// console.log(module.exports);
 
 
 //// Service for user authentication
