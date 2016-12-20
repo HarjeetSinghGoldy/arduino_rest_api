@@ -1,5 +1,4 @@
-# sylvester_tech_REST
-Sylvester Tech RESTful Application.
+#Sylvester Tech RESTful Simple Application for User Login/Register.
 
 This app simple Login/Register with authention is built on Nodejs MEAN Stack performing CRUD operations.
 
