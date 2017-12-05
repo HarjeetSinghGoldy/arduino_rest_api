@@ -6,10 +6,6 @@ var bodyParser = require('body-parser'); /// Parse incoming request bodies in a 
 var expressJwt = require('express-jwt'); /// This module lets you authenticate HTTP requests using JWT tokens in your Node.js applications. JWTs are typically used to protect API endpoints, and are often issued using OpenID Connect.
 var config = require('config.json'); ////nconf wrapper that simplifies work with environment specific configuration files.
 
-
-
-
-
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 app.use(bodyParser.urlencoded({ extended: false }));

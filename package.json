@@ -1,10 +1,10 @@
 {
-    "name": "Sylvester_tech",
+    "name": "Hustler_tech",
     "version": "1.0.0",
     "description": "Login Flow Application Using RESTful API",
     "repository": {
         "type": "git",
-        "url": "https://github.com/HarjeetSinghGoldy/sylvester_tech_REST.git"
+        "url": "https://github.com/HarjeetSinghGoldy/hustler_REST.git"
     },
     "dependencies": {
         "bcryptjs": "^2.1.0",

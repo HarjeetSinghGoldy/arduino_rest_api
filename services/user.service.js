@@ -36,7 +36,7 @@ function authenticate(username, password) {
         if (err) deferred.reject(err.name + ': ' + err.message);
         /// bcrypt for comparing user password with user.hash in db
         if (user && bcrypt.compareSync(password, user.hash)) {
-            // authentication successful https://jwt.io/ use this url with jwt token and secret key given in config.json "secret": "Sylvester tech task"
+            // authentication successful https://jwt.io/ use this url with jwt token and secret key given in config.json "secret": "The Hustler Collective task"
             deferred.resolve(jwt.sign({
                 sub: user._id
             }, config.secret));
